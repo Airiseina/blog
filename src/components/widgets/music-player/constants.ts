@@ -37,6 +37,38 @@ export const LOCAL_PLAYLIST: Song[] = [
 		url: "assets/music/url/cl.mp3",
 		duration: 200,
 	},
+	{
+		id: 5,
+		title: "小小恋歌",
+		artist: "石見舞菜香",
+		cover: "assets/music/cover/ll.webp",
+		url: "assets/music/url/ll.mp3",
+		duration: 220,
+	},
+	{
+		id: 6,
+		title:"白昼梦",
+		artist: "こぴ",
+		cover: "assets/music/cover/dream.webp",
+		url: "assets/music/url/dream.mp3",
+		duration: 190,
+	},
+	{
+		id: 7,
+		title: "向着命运的彼方",
+		artist: "霜月遥",
+		cover: "assets/music/cover/way.webp",
+		url: "assets/music/url/way.mp3",
+		duration: 210,
+	},
+	{
+		id: 8,
+		title: "I_Really_Want_to_Stay_at_Your_House",
+		artist: "lucy",
+		cover: "assets/music/cover/lu.webp",
+		url: "assets/music/url/lu.mp3",
+		duration: 230,
+	},
 ];
 
 export const DEFAULT_SONG: Song = {

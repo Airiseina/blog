@@ -32,16 +32,15 @@ export interface MusicPlayerState {
 }
 
 function getAssetPath(path: string): string {
-	if (!path) {
-		return "";
-	}
-	if (path.startsWith("http://") || path.startsWith("https://")) {
-		return path;
-	}
-	if (path.startsWith("/")) {
-		return path;
-	}
-	return `/${path}`;
+    if (path.startsWith("http://") || path.startsWith("https://") || path.startsWith("data:")) {
+        return path;
+    }
+    
+    const basePath = import.meta.env.BASE_URL;
+    const cleanPath = path.startsWith("/") ? path.slice(1) : path;
+    const cleanBase = basePath.endsWith("/") ? basePath : basePath + "/";
+    
+    return cleanBase + cleanPath;
 }
 
 class MusicPlayerStore {
