@@ -11,7 +11,7 @@ export const LOCAL_PLAYLIST: Song[] = [
 		artist: "Dazbee",
 		cover: "assets/music/cover/dazbee.webp",
 		url: "assets/music/url/dazbee.mp3",
-		duration: 0,
+		duration: 210,
 	},
 	{
 		id: 2,
