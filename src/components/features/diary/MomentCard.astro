@@ -1,5 +1,6 @@
 ---
 import { formatRelativeTime } from "../../../utils/timeFormat";
+import { url } from "../../../utils/url-utils";
 import type { MomentCardProps } from "./types";
 
 const { moment, index, minutesAgo, hoursAgo, daysAgo } =
@@ -39,12 +40,12 @@ const relativeTime = formatRelativeTime(
 						<div class="relative rounded-lg overflow-hidden aspect-square cursor-pointer">
 							<a
 								href="javascript:void(0)"
-								data-src={image}
+								data-src={url(image)}
 								data-fancybox={`diary-${index}-${imgIndex}`}
 								class="block w-full h-full"
 							>
 								<img
-									src={image}
+									src={url(image)}
 									alt="diary moment image"
 									class="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
 									loading="lazy"

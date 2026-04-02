@@ -252,7 +252,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 			"/assets/desktop-banner/8.webp",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
-	position: "center", // 壁纸位置，等同于 object-position
+	position: "top", // 壁纸位置，等同于 object-position
 	carousel: {
 		enable: true, // 启用轮播
 		interval: 5, // 轮播间隔时间（秒）
