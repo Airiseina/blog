@@ -7,11 +7,11 @@ export const DEFAULT_VOLUME = 0.7;
 export const LOCAL_PLAYLIST: Song[] = [
 	{
 		id: 1,
-		title: "口笛で愛は歌えない",
-		artist: "Dazbee",
-		cover: "assets/music/cover/dazbee.webp",
-		url: "assets/music/url/dazbee.mp3",
-		duration: 210,
+		title: "sister,friend,lover",
+		artist: "RAMMに這いよるクー子さんとクー音さん",
+		cover: "assets/music/cover/SLF.webp",
+		url: "assets/music/url/SLF.mp3",
+		duration: 221,
 	},
 	{
 		id: 2,
