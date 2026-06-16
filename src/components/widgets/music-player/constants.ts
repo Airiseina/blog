@@ -9,8 +9,8 @@ export const LOCAL_PLAYLIST: Song[] = [
 		id: 1,
 		title: "sister,friend,lover",
 		artist: "RAMMに這いよるクー子さんとクー音さん",
-		cover: "assets/music/cover/SLF.webp",
-		url: "assets/music/url/SLF.mp3",
+		cover: "assets/music/cover/SFL.webp",
+		url: "assets/music/url/SFL.mp3",
 		duration: 221,
 	},
 	{
