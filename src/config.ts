@@ -118,20 +118,19 @@ export const siteConfig: SiteConfig = {
 		// "mobile" = 仅在移动端显示
 		// "desktop" = 仅在桌面端显示
 		// "both" = 在所有设备上显示
-		showModeSwitchOnMobile: "both",
+		showModeSwitchOnMobile: "off",
 	},
 
 	banner: {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/1.jpg",
 				"/assets/desktop-banner/2.webp",
 				"/assets/desktop-banner/5.webp",
 				"/assets/desktop-banner/7.webp"
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/mobile-banner/1.jpg",
+				"/assets/mobile-banner/1.webp",
 				"/assets/mobile-banner/2.webp",
 				"/assets/mobile-banner/5.webp",
 			], // 移动横幅图片
